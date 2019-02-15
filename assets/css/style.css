@@ -1,0 +1,124 @@
+
+
+    
+img.Wrap{
+    margin: 2%;
+}
+    
+footer.footsie {
+    background-color:#666666;
+    position: fixed;
+    border-top: 8px solid #4aaaa5;
+    bottom:0;
+    text-align: center;
+    padding: 25px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    
+
+}
+
+body.bgpattern {
+    background-image: url("../images/positive.png");
+    margin: 0%;
+}
+
+div.WhiteBG {
+    
+   background-color: #ffffff;
+   padding: 5%;
+   border-top: 4px solid #4aaaa5;
+   border-bottom: 4px solid #4aaaa5;
+   border-left: 4px solid #4aaaa5;
+   border-right: 4px solid #4aaaa5;
+   margin-top: 10px;
+   
+}
+
+h3.headertext {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    
+    align-content: center;
+ }
+
+#name {
+    color:#ffffff;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size: 25px;
+}
+
+/* #headerline {
+    background-color: #fff;
+    text-align: center;
+} */
+#headerline {
+    border-bottom: 1px solid #666666;
+    width: 100%;
+    text-align: center;
+    padding:20px;
+    background-color: #fff;
+}
+
+
+
+/* This is my image text labels */
+p.textoverimage {
+    z-index: 1;
+    margin-top: -100px;
+    
+}
+
+
+
+/* #branch {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ } */
+
+
+
+
+
+ div.hangman {
+    position:relative;
+   text-align: center;
+    z-index:3;
+    left:0%;
+    bottom:25%;
+    clear:both;
+    background-color: #4aaaa5;
+    padding:8px;
+
+   
+
+}
+
+div.bluelabel {
+    color: #4aaaa5;
+    width: 400px;
+    height:60px;
+    position: relative;
+    z-index:2;
+    background-color: #4aaaa5;
+    left: 20%;
+    bottom:25%
+    
+  
+} 
+ 
+@media only screen and (max-width: 700px) {
+    #branch, #headerline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+     #titles {
+         display: flex; 
+         width: 50px;
+         align-items: left;
+        }
+  }
